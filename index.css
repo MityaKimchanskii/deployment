@@ -1,13 +1,18 @@
 body {
     background-color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    border-left: 20cm;
-
+    background-attachment: fixed;
+    background-image: url("https://cdn.wallpapersafari.com/29/94/gbIP6Z.jpg") ;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin-left: 26vw;
+    margin-right: 32vw;
+    /* border-left: 0cm; */
 }
 img {
-    width: 50vw;
+    width: 30vw;
 }
 header{
     background-color: rgb(104, 100, 100);
@@ -70,4 +75,8 @@ footer{
   .navbar a.active {
     background-color: #04AA6D;
     color: white;
+  }
+
+  #text {
+      color: white;
   }
